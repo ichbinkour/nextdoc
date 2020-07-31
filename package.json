@@ -4,7 +4,7 @@
   "description": "Nextdoc is an opensource library that allows you to generate documentation for your javacript project rendered in Markdown.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon --exec babel-node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/ichbinkour/nextdoc/issues"
   },
-  "homepage": "https://github.com/ichbinkour/nextdoc#readme"
+  "homepage": "https://github.com/ichbinkour/nextdoc#readme",
+  "dependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.0",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "nodemon": "^2.0.4"
+  }
 }
