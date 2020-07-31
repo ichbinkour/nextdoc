@@ -1,0 +1,20 @@
+{
+  "name": "nextdoc",
+  "version": "1.0.0",
+  "description": "Nextdoc is an opensource library that allows you to generate documentation for your javacript project rendered in Markdown.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ichbinkour/nextdoc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ichbinkour/nextdoc/issues"
+  },
+  "homepage": "https://github.com/ichbinkour/nextdoc#readme"
+}
